@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $element) {
+	var c = this;
+
+	const g_form = $scope.page.g_form;
+	const g_navigation=$scope.page.g_navigation;
+	var uri = g_form.getTableName()+'.do?sys_id='+g_form.getUniqueValue()+'&PDF';
+	g_navigation.open(uri);
+
+	/*
+
+	// 初始化
+	c.$onInit = function() {
+		// 可选：设置打印样式
+		setupPrintStyles();
+	};
+
+	// 打印当前页面
+	c.printPage = function() {
+		try {
+			// 隐藏不需要打印的元素（如按钮）
+			const printButton = $element.find('button')[0];
+			if (printButton) {
+				printButton.style.display = 'none';
+			}
+
+			// 触发浏览器打印对话框
+			window.print();
+
+			// 打印完成后恢复按钮显示（使用 setTimeout 确保打印对话框已关闭）
+			setTimeout(() => {
+				if (printButton) {
+					printButton.style.display = 'block';
+				}
+			}, 500);
+
+		} catch (error) {
+			console.error('打印时出错:', error);
+			gs.error('打印过程中发生错误');
+		}
+	};
+
+	// 设置打印样式（可选）
+	function setupPrintStyles() {
+		const style = document.createElement('style');
+		style.type = 'text/tailwindcss';
+		style.textContent = `
+            @layer utilities {
+                .no-print {
+                    display: none !important;
+                }
+                .print-only {
+                    display: none !important;
+                }
+                @media print {
+                    .no-print {
+                        display: none !important;
+                    }
+                    .print-only {
+                        display: block !important;
+                    }
+                }
+            }
+        `;
+		document.head.appendChild(style);
+	}*/
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>download_pdf</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Download PDF</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 06:12:35</sys_created_on>
+        <sys_id>72df590997b5a210d078f62de053af07</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Download PDF</sys_name>
+        <sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
+        <sys_update_name>sp_widget_72df590997b5a210d078f62de053af07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 09:50:23</sys_updated_on>
+        <template><![CDATA[<div>
+    <button class="btn btn-primary" ng-click="c.printPage()">
+          <i class="fa fa-print"></i> 打印页面
+    </button> 
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>72df590997b5a210d078f62de053af07</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-27 06:12:35</sys_created_on>
+        <sys_id>f2df590997b5a210d078f62de053af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-27 06:12:35</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
