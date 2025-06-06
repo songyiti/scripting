@@ -23,14 +23,14 @@
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-06 02:49:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c51d098974e2610d078f62de053af2f</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Re-submit application</sys_name>
         <sys_overrides/>
         <sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_8c51d098974e2610d078f62de053af2f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 05:51:08</sys_updated_on>
+        <sys_updated_on>2025-06-06 09:10:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -510,14 +510,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-06 03:21:39</sys_created_on>
         <sys_id>9ca8d8d0978e2610d078f62de053afa2</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 05:51:07</sys_updated_on>
+        <sys_updated_on>2025-06-06 09:10:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
