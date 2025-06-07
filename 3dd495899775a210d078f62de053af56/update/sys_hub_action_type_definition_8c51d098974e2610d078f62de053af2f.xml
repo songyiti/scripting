@@ -23,14 +23,14 @@
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-06 02:49:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c51d098974e2610d078f62de053af2f</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>Re-submit application</sys_name>
         <sys_overrides/>
         <sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_8c51d098974e2610d078f62de053af2f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 09:10:44</sys_updated_on>
+        <sys_updated_on>2025-06-07 09:28:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -91,10 +91,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-06 03:21:39</sys_created_on>
         <sys_id>1ca8d8d0978e2610d078f62de053af88</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 05:51:07</sys_updated_on>
+        <sys_updated_on>2025-06-07 09:26:40</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1ca8d8d0978e2610d078f62de053af88"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -105,9 +105,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-06 03:21:39</sys_created_on>
         <sys_id>54a8d8d0978e2610d078f62de053af9a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 05:51:07</sys_updated_on>
+        <sys_updated_on>2025-06-07 09:26:40</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
     try{&#13;
@@ -123,7 +123,7 @@
     flow_inputs['table_name'] = 'sc_req_item';&#13;
     flow_inputs['request_item'] = ritm;&#13;
 &#13;
-    sn_fd.FlowAPI.getRunner().flow('x_1755921_script_0.service_catalog_item_request').inForeground().withInputs(inputs).run();&#13;
+    sn_fd.FlowAPI.getRunner().flow('x_1755921_script_0.service_catalog_item_request').inForeground().withInputs(flow_inputs).run();&#13;
     } catch (ex) {&#13;
 		var message = ex.getMessage();&#13;
 		gs.error(message);&#13;
@@ -510,14 +510,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-06 03:21:39</sys_created_on>
         <sys_id>9ca8d8d0978e2610d078f62de053afa2</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 09:10:43</sys_updated_on>
+        <sys_updated_on>2025-06-07 09:28:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -619,17 +619,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Re-submit application">8c51d098974e2610d078f62de053af2f</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6c0a70dc97026610d078f62de053af00","name":"plan","plan_signature":null}}</plan>
-        <snapshot>4edaf01097426610d078f62de053afd3</snapshot>
+        <snapshot>5146362497cea610d078f62de053af81</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-06 05:47:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6c0a70dc97026610d078f62de053af00</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 05:51:09</sys_updated_on>
+        <sys_updated_on>2025-06-07 09:28:53</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -719,10 +719,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-06 05:47:28</sys_created_on>
         <sys_id>dc0a30dc97026610d078f62de053afb3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 05:51:08</sys_updated_on>
+        <sys_updated_on>2025-06-07 09:26:41</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dc0a30dc97026610d078f62de053afb3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -733,9 +733,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-06 05:47:28</sys_created_on>
         <sys_id>100a30dc97026610d078f62de053afc2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 05:51:08</sys_updated_on>
+        <sys_updated_on>2025-06-07 09:26:41</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
     try{&#13;
@@ -751,7 +751,7 @@
     flow_inputs['table_name'] = 'sc_req_item';&#13;
     flow_inputs['request_item'] = ritm;&#13;
 &#13;
-    sn_fd.FlowAPI.getRunner().flow('x_1755921_script_0.service_catalog_item_request').inForeground().withInputs(inputs).run();&#13;
+    sn_fd.FlowAPI.getRunner().flow('x_1755921_script_0.service_catalog_item_request').inForeground().withInputs(flow_inputs).run();&#13;
     } catch (ex) {&#13;
 		var message = ex.getMessage();&#13;
 		gs.error(message);&#13;
@@ -1051,14 +1051,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-06 05:47:28</sys_created_on>
         <sys_id>d40a30dc97026610d078f62de053afc9</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-06 05:51:08</sys_updated_on>
+        <sys_updated_on>2025-06-07 09:28:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
