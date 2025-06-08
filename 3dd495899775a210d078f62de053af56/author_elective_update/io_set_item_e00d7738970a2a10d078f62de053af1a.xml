@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Practice_3(Scripting)">3245dd899775a210d078f62de053afe6</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 09:16:25</sys_created_on>
+        <sys_id>e00d7738970a2a10d078f62de053af1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Citizen Developer Application - Base.Practice_3(Scripting)</sys_name>
+        <sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
+        <sys_update_name>io_set_item_e00d7738970a2a10d078f62de053af1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 09:16:25</sys_updated_on>
+        <variable_set display_value="Citizen Developer Application - Base">b3889bc753d15110b846ddeeff7b126b</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scripting">3dd495899775a210d078f62de053af56</application>
+        <file_path/>
+        <instance_id>c5fef5a63b992a9016e44a8aa4e45af0</instance_id>
+        <instance_name>dev347112</instance_name>
+        <name>io_set_item_e00d7738970a2a10d078f62de053af1a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Practice_3(Scripting)">3245dd899775a210d078f62de053afe6</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-08 09:16:25</sys_created_on><sys_id>e00d7738970a2a10d078f62de053af1a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Citizen Developer Application - Base.Practice_3(Scripting)</sys_name><sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package><sys_policy/><sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope><sys_update_name>io_set_item_e00d7738970a2a10d078f62de053af1a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-08 09:16:25</sys_updated_on><variable_set display_value="Citizen Developer Application - Base">b3889bc753d15110b846ddeeff7b126b</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-708006077</payload_hash>
+        <record_name>Citizen Developer Application - Base.Practice_3(Scripting)</record_name>
+        <reverted_from/>
+        <source>559727a097c2e610d078f62de053af4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 09:16:25</sys_created_on>
+        <sys_id>a00df738970a2a10d078f62de053af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1974ed3af8f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 09:16:25</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>640df738ab0a2a10e00b7a7a65f9d526</update_guid>
+        <update_guid_history>640df738ab0a2a10e00b7a7a65f9d526:-708006077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Citizen Developer Application - Base.Practice_3(Scripting)">bc1d7738970a2a10d078f62de053af44</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 09:16:42</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>57b9f86cd9de42a4a20a271e6abe49a4</sys_id>
+        <sys_metadata>e00d7738970a2a10d078f62de053af1a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Citizen Developer Application - Base.Practice_3(Scripting)</sys_name>
+        <sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
+        <sys_scope_delete display_value="">cb0ddb64ba4b434ca3adad65c9d69f64</sys_scope_delete>
+        <sys_update_name>io_set_item_e00d7738970a2a10d078f62de053af1a</sys_update_name>
+        <sys_update_version display_value="io_set_item_e00d7738970a2a10d078f62de053af1a">a00df738970a2a10d078f62de053af27</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 09:16:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

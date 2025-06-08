@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>mrvs</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 09:03:26</sys_created_on>
+        <sys_id>ab6973fc97c62a10d078f62de053af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MRVS</sys_name>
+        <sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
+        <sys_update_name>item_option_new_set_ab6973fc97c62a10d078f62de053af6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 09:03:26</sys_updated_on>
+        <title>MRVS</title>
+        <type>one_to_many</type>
+        <version/>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scripting">3dd495899775a210d078f62de053af56</application>
+        <file_path/>
+        <instance_id>c5fef5a63b992a9016e44a8aa4e45af0</instance_id>
+        <instance_name>dev347112</instance_name>
+        <name>item_option_new_set_ab6973fc97c62a10d078f62de053af6e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>mrvs</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-08 09:03:26</sys_created_on><sys_id>ab6973fc97c62a10d078f62de053af6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MRVS</sys_name><sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package><sys_policy/><sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope><sys_update_name>item_option_new_set_ab6973fc97c62a10d078f62de053af6e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-08 09:03:26</sys_updated_on><title>MRVS</title><type>one_to_many</type><version/><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>1211664364</payload_hash>
+        <record_name>MRVS</record_name>
+        <reverted_from/>
+        <source>559727a097c2e610d078f62de053af4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 09:03:26</sys_created_on>
+        <sys_id>a60ab7f0970a2a10d078f62de053afb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1974ec7ce790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 09:03:26</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>aa0ab7f0540a2a10b13a48cfbf22dbb3</update_guid>
+        <update_guid_history>aa0ab7f0540a2a10b13a48cfbf22dbb3:1211664364</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MRVS">98b24ccd970a2a10d078f62de053afb1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 09:41:16</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>9b15d6b6daf14f20a1aecd7c45db31a4</sys_id>
+        <sys_metadata>ab6973fc97c62a10d078f62de053af6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MRVS</sys_name>
+        <sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
+        <sys_scope_delete display_value="">cb0ddb64ba4b434ca3adad65c9d69f64</sys_scope_delete>
+        <sys_update_name>item_option_new_set_ab6973fc97c62a10d078f62de053af6e</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_ab6973fc97c62a10d078f62de053af6e">a60ab7f0970a2a10d078f62de053afb4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 09:41:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

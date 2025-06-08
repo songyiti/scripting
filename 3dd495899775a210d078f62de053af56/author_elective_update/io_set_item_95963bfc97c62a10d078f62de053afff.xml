@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Practice_3(Scripting)">3245dd899775a210d078f62de053afe6</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 09:03:55</sys_created_on>
+        <sys_id>95963bfc97c62a10d078f62de053afff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MRVS.Practice_3(Scripting)</sys_name>
+        <sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
+        <sys_update_name>io_set_item_95963bfc97c62a10d078f62de053afff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 09:03:55</sys_updated_on>
+        <variable_set display_value="MRVS">ab6973fc97c62a10d078f62de053af6e</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scripting">3dd495899775a210d078f62de053af56</application>
+        <file_path/>
+        <instance_id>c5fef5a63b992a9016e44a8aa4e45af0</instance_id>
+        <instance_name>dev347112</instance_name>
+        <name>io_set_item_95963bfc97c62a10d078f62de053afff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Practice_3(Scripting)">3245dd899775a210d078f62de053afe6</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-08 09:03:55</sys_created_on><sys_id>95963bfc97c62a10d078f62de053afff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MRVS.Practice_3(Scripting)</sys_name><sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package><sys_policy/><sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope><sys_update_name>io_set_item_95963bfc97c62a10d078f62de053afff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-08 09:03:55</sys_updated_on><variable_set display_value="MRVS">ab6973fc97c62a10d078f62de053af6e</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-1211457953</payload_hash>
+        <record_name>MRVS.Practice_3(Scripting)</record_name>
+        <reverted_from/>
+        <source>559727a097c2e610d078f62de053af4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 09:03:55</sys_created_on>
+        <sys_id>a92a3b34970a2a10d078f62de053af11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1974ec83ef50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 09:03:55</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>ad2a3b34bb0a2a1014c38a85476c8710</update_guid>
+        <update_guid_history>ad2a3b34bb0a2a1014c38a85476c8710:-1211457953</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MRVS.Practice_3(Scripting)">58b2cccd970a2a10d078f62de053af23</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-08 09:41:15</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>a20fe9cf6dfe4e5b8705bcf7de99fd79</sys_id>
+        <sys_metadata>95963bfc97c62a10d078f62de053afff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MRVS.Practice_3(Scripting)</sys_name>
+        <sys_package display_value="Scripting" source="x_1755921_script_0">3dd495899775a210d078f62de053af56</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Scripting">3dd495899775a210d078f62de053af56</sys_scope>
+        <sys_scope_delete display_value="">cb0ddb64ba4b434ca3adad65c9d69f64</sys_scope_delete>
+        <sys_update_name>io_set_item_95963bfc97c62a10d078f62de053afff</sys_update_name>
+        <sys_update_version display_value="io_set_item_95963bfc97c62a10d078f62de053afff">a92a3b34970a2a10d078f62de053af11</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-08 09:41:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
